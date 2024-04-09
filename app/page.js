@@ -11,9 +11,9 @@ export default function Home() {
 
       <div className="relative text-center text-white">
         <Image src="/images/ENRAGED_1.png" alt="Game Logo" layout="responsive" width={1500} height={800} objectFit="cover" />
-        <div className="absolute space-x-4 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-          <button className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Join Discord</button>
-          <button className="px-4 py-2 font-bold text-white bg-blue-300 rounded hover:bg-blue-500">Join Twitter</button>
+        <div className="absolute md:space-x-20 transform -translate-x-1/2 -translate-y-1/2 top-[80%] left-1/2">
+          <a href="https://discord.gg/dewJBrpAgH" target='blank' className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Join Discord</a>
+          <a href="https://twitter.com/game_enraged" target='blank' className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Join Twitter</a>
         </div>
       </div>
 
