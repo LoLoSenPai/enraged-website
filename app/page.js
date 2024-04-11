@@ -29,7 +29,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-around p-4 my-8 bg-red-400 border border-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
           
           <div className="w-full p-4 bg-red-600 border border-gray-100 rounded-md md:w-1/2 lg:px-12 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 ">
-            <h2 className='pb-2 text-2xl'>Mes agents</h2>
+            <h2 className='pb-2 text-2xl'>Vos agents</h2>
             <p>Outre vos armes, le choix d'un agent est crucial, car leurs compétences polyvalentes et dangereuses vous accompagnent dans toutes les situations. Chaque agent possède son propre ensemble de compétences, ce qui garantit que chacun de vos moments forts sera unique et mémorable.</p>
           </div>
           <div className="w-1/3 p-4 md:w-[30%]">
