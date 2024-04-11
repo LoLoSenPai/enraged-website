@@ -14,21 +14,26 @@ export default function Home() {
 
       <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">
         
-        <div className="flex flex-wrap items-center justify-around p-4 my-8 bg-red-400 border border-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
-          <div className="w-full p-4 bg-red-600 border border-gray-100 rounded-md md:w-1/2 lg:px-12 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 ">
-            <p>Voici du texte à propos du jeu. Expliquez ce qui rend votre jeu unique et pourquoi les gens devraient s'y intéresser.</p>
-          </div>
-          <div className="w-1/3 p-4 md:w-[30%]">
-            <Image src="/images/preview-1.png" alt="Game Image" width={829} height={1451} />
-          </div>
-        </div>
 
-        <div className="flex flex-wrap items-center justify-around p-4 my-8 bg-red-400 border border-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
+      <div className="flex flex-wrap items-center justify-around p-4 my-8 bg-red-400 border border-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
           <div className="order-2 w-full p-4 md:w-1/2 md:order-1">
             <Image src="/images/banner.jpg" alt="Another Game Image" width={500} height={300} className='rounded-lg' />
           </div>
           <div className="order-1 w-full p-4 bg-red-600 border border-gray-100 rounded-md md:w-1/2 lg:px-12 md:order-2 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 ">
-            <p>Plus d'informations sur le jeu, peut-être sur le gameplay ou les caractéristiques spéciales.</p>
+            <h2 className='pb-2 text-2xl'>Repoussez les limites</h2>
+            <p>Plongez au cœur de l'action avec ENRAGED, le dernier cri en matière de FPS. Préparez-vous à une expérience palpitante où chaque décision peut faire la différence entre la victoire et la défaite.</p>
+            <button className="px-4 py-2 mt-4 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">Commencer à jouer</button>
+          </div>
+        </div>
+        
+        <div className="flex flex-wrap items-center justify-around p-4 my-8 bg-red-400 border border-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
+          
+          <div className="w-full p-4 bg-red-600 border border-gray-100 rounded-md md:w-1/2 lg:px-12 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 ">
+            <h2 className='pb-2 text-2xl'>Un monde époustouflant</h2>
+            <p>Voici du texte à propos du jeu. Expliquez ce qui rend votre jeu unique et pourquoi les gens devraient s'y intéresser.</p>
+          </div>
+          <div className="w-1/3 p-4 md:w-[30%]">
+            <Image src="/images/preview-1.png" alt="Game Image" width={829} height={1451} />
           </div>
         </div>
 
