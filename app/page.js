@@ -30,7 +30,8 @@ export default function Home() {
           
           <div className="w-full p-4 bg-red-600 border border-gray-100 rounded-md md:w-1/2 lg:px-12 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 ">
             <h2 className='pb-2 text-2xl'>Un monde époustouflant</h2>
-            <p>Voici du texte à propos du jeu. Expliquez ce qui rend votre jeu unique et pourquoi les gens devraient s'y intéresser.</p>
+            <p>Outre vos armes, le choix d'un agent est crucial, car leurs compétences polyvalentes et dangereuses vous accompagnent dans toutes les situations. Chaque agent possède son propre ensemble de compétences, ce qui garantit que chacun de vos moments forts sera unique et mémorable
+en mettant VOS AGENT comme sur l'image de reference de valorant :)</p>
           </div>
           <div className="w-1/3 p-4 md:w-[30%]">
             <Image src="/images/preview-1.png" alt="Game Image" width={829} height={1451} />
