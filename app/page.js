@@ -21,7 +21,7 @@ export default function Home() {
           <div className="order-1 w-full p-4 border border-gray-100 rounded-md bg:-red-600 md:w-1/2 lg:px-12 md:order-2 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
             <h2 className='pb-4 text-2xl md:pb-8'>Repoussez les limites</h2>
             <p>Plongez au cœur de l'action avec ENRAGED, le dernier cri en matière de FPS. Préparez-vous à une expérience palpitante où chaque décision peut faire la différence entre la victoire et la défaite.</p>
-            <button className="px-4 py-2 mt-4 font-bold text-white rounded bg-red-600/80 hover:bg-red-700">Commencer à jouer</button>
+            <button className="px-4 py-2 mt-12 font-bold text-white rounded bg-red-600/80 hover:bg-red-700">Commencer à jouer</button>
           </div>
         </div>
 
